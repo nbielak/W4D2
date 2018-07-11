@@ -1,0 +1,35 @@
+<h1>Here is your cat</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="7"> <%= @cat.name %> </th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <td>birth date:</td>
+      <td> <%= @cat.birth_date %> </td>
+    </tr>
+    <tr>
+      <td>age:</td>
+      <td> <%= @cat.age %> </td>
+    </tr>
+    <tr>
+      <td>color:</td>
+      <td> <%= @cat.color %> </td>
+    </tr>
+    <tr>
+      <td>sex:</td>
+      <td> <%= @cat.sex %> </td>
+    </tr>
+    <tr>
+      <td>description:</td>
+      <td> <%= @cat.description %> </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<a href="<%= cats_url %>">Cat's Index</a>
